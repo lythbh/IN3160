@@ -1,0 +1,7 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/../src/decoder_ent.vhd" "ba3e4da37e00edb3d300b9e263c1e5cf38b76a41" "20250217103237.572":
+  entity decoder at 1( 0) + 0 on 13;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/../src/decoder_dec_case.vhd" "834853cc34799deac838b534fbbdaf6f8bc8998b" "20250217103237.572":
+  architecture dec_case of decoder at 1( 0) + 0 on 14;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/../src/decoder_dec_select.vhd" "dd6ac883defb3d167c068df0d001aca24cbe0c7c" "20250217103237.390":
+  architecture dec_select of decoder at 1( 0) + 0 on 4;

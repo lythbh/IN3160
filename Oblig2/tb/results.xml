@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1739788358" />
+    <testcase name="main_test" classname="tb_decoder_dec_select" file="/uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/tb_decoder_dec_select.py" lineno="4" time="0.000997781753540039" sim_time_ns="80.000001" ratio_time="80177.8552435613">
+      <failure message="Test failed with RANDOM_SEED=1739788358" />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 29 20:57:25 2025
+# Process ID: 16576
+# Current directory: /uio/hume/student-u39/lythbh/IN3160/Oblig2/tb
+# Command line: vivado
+# Log file: /uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/vivado.log
+# Journal file: /uio/hume/student-u39/lythbh/IN3160/Oblig2/tb/vivado.jou
+# Running On: ic-ifi-de-01, OS: Linux, CPU Frequency: 2992.968 MHz, CPU Physical cores: 4, Host memory: 16501 MB
+#-----------------------------------------------------------
+start_gui
+create_project Oblig2_vivado /uio/hume/student-u39/lythbh/IN3160/Oblig2/Oblig2_vivado -part xc7z020clg484-1
+set_property target_language VHDL [current_project]
+add_files -norecurse {/uio/hume/student-u39/lythbh/IN3160/Oblig2/src/decoder_dec_case.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig2/src/decoder_ent.vhd}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LD[3]} {LD[2]} {LD[1]} {LD[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {SW[1]} {SW[0]}]]
+place_ports {LD[3]} U21
+place_ports {LD[2]} U22
+place_ports {LD[0]} T21
+startgroup
+set_property package_pin "" [get_ports [list  {LD[2]}]]
+place_ports {LD[1]} U22
+endgroup
+set_property package_pin "" [get_ports [list  {LD[2]}]]
+set_property package_pin "" [get_ports [list  {LD[3]}]]
+place_ports {LD[2]} U21
+set_property package_pin "" [get_ports [list  {LD[3]}]]
+place_ports {SW[1]} G22
+place_ports {SW[0]} H22
+place_ports {LD[3]} H17
+file mkdir /uio/hume/student-u39/lythbh/IN3160/Oblig2/Oblig2_vivado/Oblig2_vivado.srcs/constrs_1/new
+close [ open /uio/hume/student-u39/lythbh/IN3160/Oblig2/Oblig2_vivado/Oblig2_vivado.srcs/constrs_1/new/constraints.xdc w ]
+add_files -fileset constrs_1 /uio/hume/student-u39/lythbh/IN3160/Oblig2/Oblig2_vivado/Oblig2_vivado.srcs/constrs_1/new/constraints.xdc
+set_property target_constrs_file /uio/hume/student-u39/lythbh/IN3160/Oblig2/Oblig2_vivado/Oblig2_vivado.srcs/constrs_1/new/constraints.xdc [current_fileset -constrset]
+save_constraints -force
+refresh_design
