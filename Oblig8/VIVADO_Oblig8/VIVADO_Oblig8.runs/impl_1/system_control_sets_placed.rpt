@@ -1,0 +1,84 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Tue Apr  8 17:41:06 2025
+| Host         : gimli.ifi.uio.no running 64-bit unknown
+| Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
+| Design       : system
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     6 |
+|    Minimum number of control sets                        |     6 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    22 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     6 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |              69 |           19 |
+| No           | Yes                   | No                     |              33 |           11 |
+| Yes          | No                    | No                     |               8 |            2 |
+| Yes          | No                    | Yes                    |              29 |            8 |
+| Yes          | Yes                   | No                     |               5 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+----------------------------------+-----------------------------------------+------------------+----------------+--------------+
+|   Clock Signal  |           Enable Signal          |             Set/Reset Signal            | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------+----------------------------------+-----------------------------------------+------------------+----------------+--------------+
+|  mclk_IBUF_BUFG |                                  |                                         |                1 |              2 |         2.00 |
+|  mclk_IBUF_BUFG | DUT_self_test_module/ROM_index   | reset_IBUF                              |                2 |              5 |         2.50 |
+|  mclk_IBUF_BUFG | DUT_velocity_reader/ten_ms_pulse |                                         |                2 |             16 |         8.00 |
+|  mclk_IBUF_BUFG |                                  | DUT_self_test_module/counter[0]_i_1_n_0 |                8 |             29 |         3.62 |
+|  mclk_IBUF_BUFG | DUT_velocity_reader/ten_ms_pulse | reset_IBUF                              |                8 |             29 |         3.62 |
+|  mclk_IBUF_BUFG |                                  | reset_IBUF                              |               22 |             73 |         3.32 |
++-----------------+----------------------------------+-----------------------------------------+------------------+----------------+--------------+
+
+

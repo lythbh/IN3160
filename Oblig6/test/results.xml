@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1743780961" />
+    <testcase name="main_test" classname="tb_seg7ctrl" file="/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/tb_seg7ctrl.py" lineno="67" time="1.3830039501190186" sim_time_ns="1000100.001" ratio_time="723136.0408724309" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Apr 26 11:36:27 2025
+# Process ID: 20584
+# Current directory: /uio/hume/student-u39/lythbh/IN3160/Oblig10
+# Command line: vivado
+# Log file: /uio/hume/student-u39/lythbh/IN3160/Oblig10/vivado.log
+# Journal file: /uio/hume/student-u39/lythbh/IN3160/Oblig10/vivado.jou
+# Running On: ic-ifi-de-03, OS: Linux, CPU Frequency: 2992.968 MHz, CPU Physical cores: 4, Host memory: 16500 MB
+#-----------------------------------------------------------
+start_gui
+set_param board.repoPaths {/uio/hume/student-u39/lythbh/.Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store}
+xhub::install [xhub::get_xitems avnet.com:xilinx_board_store:zedboard:1.4]
+create_project oblig10_IP /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP -part xc7z020clg484-1
+set_property board_part avnet.com:zedboard:part0:1.4 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/input_synchronizer.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/pulse_width_modulator.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/velocity_reader.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/quadrature_decoder.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/seg7_pkg.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/output_synchronizer.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/system.vhd /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/seg7ctrl.vhd}
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/pulse_width_modulator.vhd]
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/output_synchronizer.vhd]
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/input_synchronizer.vhd]
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/quadrature_decoder.vhd]
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/velocity_reader.vhd]
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/seg7ctrl.vhd]
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/src/src_apps/seg7_pkg.vhd]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+ipx::package_project -root_dir /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP -vendor user.org -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP/component.xml
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP/src/system.vhd]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  /uio/hume/student-u39/lythbh/IN3160/Oblig10/oblig10_IP [current_project]
+update_ip_catalog

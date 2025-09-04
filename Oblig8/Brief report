@@ -1,0 +1,3 @@
+Brief report
+
+My setup will not work with the counter for self_test_module reach max value 300 000 000. It runs fine with value 3000. Of course then the velocity reading on the display goes a little crazy.

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="gimli.ifi.uio.no" Pid="1900275" HostCore="20" HostMemory="32210584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="gimli.ifi.uio.no" Pid="1910951" HostCore="20" HostMemory="32210584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="gimli.ifi.uio.no" Pid="1912371" HostCore="20" HostMemory="32210584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="gimli.ifi.uio.no" Pid="1922998" HostCore="20" HostMemory="32210584">
+    </Process>
+</ProcessHandle>

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Apr 29 13:26:05 2025
+# Process ID: 1923897
+# Current directory: /uio/hume/student-u39/lythbh/IN3160/Oblig10/O10-platform/O10-platform.runs/O10_block_design_system_0_0_synth_1
+# Command line: vivado -log O10_block_design_system_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source O10_block_design_system_0_0.tcl
+# Log file: /uio/hume/student-u39/lythbh/IN3160/Oblig10/O10-platform/O10-platform.runs/O10_block_design_system_0_0_synth_1/O10_block_design_system_0_0.vds
+# Journal file: /uio/hume/student-u39/lythbh/IN3160/Oblig10/O10-platform/O10-platform.runs/O10_block_design_system_0_0_synth_1/vivado.jou
+# Running On        :peregrin.ifi.uio.no
+# Platform          :unknown
+# Operating System  :unknown
+# Processor Detail  :Intel(R) Core(TM) i5-14500
+# CPU Frequency     :1262.602 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :32983 MB
+# Swap memory       :10737 MB
+# Total Virtual     :43721 MB
+# Available Virtual :38115 MB
+#-----------------------------------------------------------
+source O10_block_design_system_0_0.tcl -notrace

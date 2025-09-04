@@ -1,0 +1,4 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig9/test/../src/grayscale.vhd" "278d561291f4da7eb41c4b293b40cc8b54902aa9" "20250505130453.221":
+  entity grayscale at 1( 0) + 0 on 11;
+  architecture rtl of grayscale at 17( 420) + 0 on 12;

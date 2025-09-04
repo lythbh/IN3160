@@ -1,0 +1,67 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "O10_block_design_system_0_0",
+    "cell_name": "system_0",
+    "component_reference": "user.org:user:system:1.0",
+    "ip_revision": "2",
+    "gen_directory": "../../../../../../O10-platform.gen/sources_1/bd/O10_block_design/ip/O10_block_design_system_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "O10_block_design_system_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:zc702:part0:1.4" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../O10-platform.gen/sources_1/bd/O10_block_design/ip/O10_block_design_system_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "mclk": [ { "direction": "in" } ],
+        "reset": [ { "direction": "in" } ],
+        "SA": [ { "direction": "in" } ],
+        "SB": [ { "direction": "in" } ],
+        "duty_cycle": [ { "direction": "in", "size_left": "7", "size_right": "0" } ],
+        "velocity": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "dir_synch_out": [ { "direction": "out" } ],
+        "en_synch_out": [ { "direction": "out" } ],
+        "c_out": [ { "direction": "out" } ],
+        "abcdefg_out": [ { "direction": "out", "size_left": "6", "size_right": "0" } ]
+      },
+      "interfaces": {
+        "reset": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "reset" } ]
+          }
+        }
+      }
+    }
+  }
+}

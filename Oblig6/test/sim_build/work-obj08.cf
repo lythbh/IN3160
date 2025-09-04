@@ -1,0 +1,25 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/self_test_system.vhd" "ee5b0e1e0dc06cbe55f39e69313a4007a3492fe5" "20250404153600.065":
+  entity self_test_system at 1( 0) + 0 on 4;
+  architecture rtl of self_test_system at 17( 432) + 0 on 4;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/count18_pkg.vhd" "a93debd3373f7237d4d39b5d9cdcb3d8c682c321" "20250308121926.742":
+  package count18_pkg at 1( 0) + 0 on 13 body;
+  package body count18_pkg at 13( 363) + 0 on 14;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/seg7_pkg.vhd" "9fd749f607efd06495c85f2b11d7113d418b730a" "20250404153600.517":
+  package seg7_pkg at 1( 0) + 0 on 15 body;
+  package body seg7_pkg at 12( 336) + 0 on 16;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/bin2ssd_test.vhd" "50b17289a1a7bed5557e47ecf706e43c760363d1" "20250404153600.062":
+  entity bin2ssd_test at 1( 0) + 0 on 4;
+  architecture rtl of bin2ssd_test at 15( 309) + 0 on 4;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/seg7ctrl.vhd" "e58b109c64cc5dc816fdb5aab78ab3a05f1a0194" "20250404153600.517":
+  entity seg7ctrl at 1( 0) + 0 on 19;
+  architecture rtl of seg7ctrl at 20( 488) + 0 on 20;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/count21_pkg.vhd" "5b99404e2e33251e7971f66b5df3c8ecfa932a5a" "20250404153600.517":
+  package count21_pkg at 1( 0) + 0 on 17 body;
+  package body count21_pkg at 12( 294) + 0 on 18;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/self_test_unit.vhd" "5bbb4576333f0540e949c3e1bec5a4d99f532efe" "20250404153600.067":
+  entity self_test_unit at 1( 0) + 0 on 4;
+  architecture rtl of self_test_unit at 14( 253) + 0 on 4;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig6/test/../src/seg7ctrl_arch.vhd" "612b0db18c571566a8b3bd528945e9afa5b4ff3c" "20250404153600.063":
+  entity seg7ctrl_arch at 1( 0) + 0 on 4;
+  architecture rtl of seg7ctrl_arch at 20( 567) + 0 on 4;

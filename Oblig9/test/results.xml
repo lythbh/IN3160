@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1746450293" />
+    <testcase name="main_test" classname="tb_grayscale" file="/uio/hume/student-u39/lythbh/IN3160/Oblig9/test/tb_grayscale.py" lineno="98" time="2.385425567626953" sim_time_ns="69150.000001" ratio_time="28988.538120596717" />
+  </testsuite>
+</testsuites>

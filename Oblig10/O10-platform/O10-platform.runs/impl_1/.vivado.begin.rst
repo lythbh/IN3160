@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="peregrin.ifi.uio.no" Pid="1931825" HostCore="20" HostMemory="32210588">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="lythbh" Host="peregrin.ifi.uio.no" Pid="1963540" HostCore="20" HostMemory="32210588">
+    </Process>
+</ProcessHandle>

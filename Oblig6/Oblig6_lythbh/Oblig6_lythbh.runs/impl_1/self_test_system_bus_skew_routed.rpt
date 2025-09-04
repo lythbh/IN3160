@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Mon Mar 10 14:38:32 2025
+| Host         : gimli.ifi.uio.no running 64-bit unknown
+| Command      : report_bus_skew -warn_on_violation -file self_test_system_bus_skew_routed.rpt -pb self_test_system_bus_skew_routed.pb -rpx self_test_system_bus_skew_routed.rpx
+| Design       : self_test_system
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
