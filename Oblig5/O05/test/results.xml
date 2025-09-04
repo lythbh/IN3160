@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1741102325" />
+    <testcase name="main_test" classname="tb_pargen" file="/uio/hume/student-u39/lythbh/IN3160/Oblig5/O05/test/tb_pargen.py" lineno="58" time="0.008643150329589844" sim_time_ns="3200.000001" ratio_time="370235.3747157206" />
+  </testsuite>
+</testsuites>

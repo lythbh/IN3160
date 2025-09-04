@@ -1,0 +1,4 @@
+v 4
+file . "subprog_pck.vhd" "6df1c26b69fe932a40120fef59d9b05c46672a41" "20250217135755.790":
+  package subprog_pck at 1( 0) + 0 on 11 body;
+  package body subprog_pck at 11( 326) + 0 on 12;

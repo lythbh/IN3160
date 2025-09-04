@@ -1,0 +1,7 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig5/O05/test/../src/pargen.vhd" "3b4120050519b237b9919141181fbb0933be516d" "20250304153204.854":
+  entity pargen at 6( 237) + 0 on 13;
+  architecture rtl of pargen at 23( 637) + 0 on 14;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig5/O05/test/../src/subprog_pck.vhd" "d0b858c8bf86e75508fdcaf16ce67e1b12c37a1a" "20250304153204.854":
+  package subprog_pck at 1( 0) + 0 on 11 body;
+  package body subprog_pck at 11( 326) + 0 on 12;
