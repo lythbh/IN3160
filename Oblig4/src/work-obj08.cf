@@ -1,0 +1,4 @@
+v 4
+file . "dff.vhd" "c1df06974a04ea64651748b5599c7a9bea77de47" "20250211215634.774":
+  entity dff at 1( 0) + 0 on 11;
+  architecture rtl of dff at 12( 236) + 0 on 12;

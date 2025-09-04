@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1741452173" />
+    <testcase name="main_test" classname="tb_shiftn" file="/uio/hume/student-u39/lythbh/IN3160/Oblig4/tb/tb_shiftn.py" lineno="8" time="0.005143642425537109" sim_time_ns="6500.000001" ratio_time="1263695.9304808707" />
+  </testsuite>
+</testsuites>

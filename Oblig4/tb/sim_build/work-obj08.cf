@@ -1,0 +1,7 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig4/tb/../src/dff.vhd" "c1df06974a04ea64651748b5599c7a9bea77de47" "20250308164252.819":
+  entity dff at 1( 0) + 0 on 13;
+  architecture rtl of dff at 12( 236) + 0 on 14;
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig4/tb/../src/shiftn.vhd" "8e6b79e5568ff2411959e6609fb6577e2a673036" "20250308164252.819":
+  entity shiftn at 1( 0) + 0 on 11;
+  architecture rtl of shiftn at 14( 261) + 0 on 12;

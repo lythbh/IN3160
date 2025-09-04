@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1738785859" />
+    <testcase name="main_test" classname="tb_variables_vs_signals" file="/uio/hume/student-u39/lythbh/IN3160/Oblig3/test/tb_variables_vs_signals.py" lineno="10" time="0.0007202625274658203" sim_time_ns="300.000001" ratio_time="416514.7978134075" />
+  </testsuite>
+</testsuites>

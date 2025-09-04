@@ -1,0 +1,4 @@
+v 4
+file / "/uio/hume/student-u39/lythbh/IN3160/Oblig3/test/../src/variables_vs_signals.vhd" "e9ed81053960ba83d4d36a72062b4f20b6093bdf" "20250205200418.839":
+  entity variables_vs_signals at 1( 0) + 0 on 11;
+  architecture dataflow of variables_vs_signals at 11( 197) + 0 on 12;
